@@ -11,7 +11,7 @@
                 <input 
                     class="input" 
                     type="text" 
-                    placeholder="Sommavilla" 
+                    placeholder="Doe" 
                     v-model="userInput.nameUser.inputContent"
                     :class="{'is-danger': userInput.nameUser.showError, 'is-success': userInput.nameUser.validContent}" 
                     @focusout="checkInputName()"
@@ -29,7 +29,7 @@
                 <input 
                     class="input" 
                     type="text" 
-                    placeholder="Teddy" 
+                    placeholder="John" 
                     v-model="userInput.surnameUser.inputContent"
                     :class="{'is-danger': userInput.surnameUser.showError, 'is-success': userInput.surnameUser.validContent}" 
                     @focusout="checkTextInputSurname()"
@@ -47,7 +47,7 @@
                 <input 
                     class="input" 
                     type="text" 
-                    placeholder="0648201256" 
+                    placeholder="0102030405" 
                     :content="userInput.phoneNumberUser" 
                     :class="{'is-danger': userInput.phoneNumberUser.showError, 'is-success': userInput.phoneNumberUser.validContent}" 
                     v-model="userInput.phoneNumberUser.inputContent" 
